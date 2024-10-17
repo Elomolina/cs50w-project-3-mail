@@ -1,0 +1,76 @@
+textarea {
+    min-height: 400px;
+}
+.email
+{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.correo 
+{
+    margin-top: 1.5em;
+}
+.email_information 
+{
+    margin-top: 1.5em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding-bottom: 0.5em;
+}
+.email_information h4
+{
+    font-size: 1rem;
+    font-weight: 400;
+}
+.body_email 
+{
+    margin-top: 1em;
+    font-size: 1.1rem;
+}
+.reply 
+{
+    margin-top: 1em;
+    padding: 0.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-radius: 10px;
+    background-color: #0D92F4;
+    border: 1px solid #0D92F4;
+    color: white;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2);
+    outline: none;
+    transition: 0.5s;
+}
+.archived 
+{
+    background-color: rgb(167, 165, 165);
+    border: 1px solid rgb(167, 165, 165);
+}
+.reply:focus
+{
+    outline: none;
+}
+.reply:hover 
+{
+    transform: scale(1.05);
+}
+.email:hover 
+{
+    transform: translateX(10px);
+}
+.email h3, .email h4, .email h5
+{
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+.email h3 
+{
+    font-weight: bold;
+}
