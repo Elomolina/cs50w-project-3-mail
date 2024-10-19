@@ -1,4 +1,4 @@
-# Third project for CS50's web programming with python and javascript course
+# Third project for CS50's web programming with python and javascript course 👻
 
 ## Description
 In this project the task is create the frontend of a web application.
